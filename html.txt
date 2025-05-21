@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Barkery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f0e6;
+      color: #4b3a2f;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #e8dfd1;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #4b3a2f;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #4b3a2f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #4b3a2f;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #fff8ec;
+      border: 1px solid #d8cdb8;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #4b3a2f;
+    }
+
+    footer {
+      background-color: #e8dfd1;
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+      border-top: 2px solid #4b3a2f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Barkery</h1>
+    <nav>
+      <a href="#products">Treats</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>At The Barkery, we craft small-batch, all-natural dog treats with love. Because your best friend deserves the best bites.</p>
+  </section>
+
+  <section id="products">
+    <h2>Featured Treats</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c443f82?auto=format&fit=crop&w=400&q=80" alt="Fresh Breath Treats">
+        <h3>Fresh Breath Treats</h3>
+        <p>Mint and parsley treats that help keep your dog’s breath fresh.</p>
+        <p class="price">$12 (30 treats)</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&q=80" alt="Pumpkin Peanut Butter Treats">
+        <h3>Pumpkin PB Bites</h3>
+        <p>Simple, healthy treats made with pumpkin and peanut butter.</p>
+        <p class="price">$20 (30 treats)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm [Your Name], the proud founder of The Barkery. Inspired by my own pup’s picky taste and health needs, I began baking wholesome, handmade treats in my kitchen. Now I’m sharing them with dogs everywhere!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to place an order or ask a question? Email me at <strong>your@email.com</strong></p>
+  </section>
+
+  <footer>
+    © 2025 The Barkery – Handmade with love for happy tails 🐾
+  </footer>
+
+</body>
+</html>
